@@ -14,8 +14,8 @@ cp -r waybar "$HOME/.config/"
 echo "✅ New configurations is installed"
 
 echo "📥 Installing packages"
-sudo pacman -S tree telegram-desktop firefox discord 7zip --noconfirm
-yay -S polychromatic google-chrome yandex-music-native --noconfirm
+sudo pacman -S tree telegram-desktop firefox discord yazi android-tools --noconfirm
+yay -S polychromatic google-chrome yandex-music-native android-studio --noconfirm
 sudo gpasswd -a $USER plugdev
 echo "✅ Packages is installed"
 
