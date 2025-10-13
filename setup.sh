@@ -11,6 +11,7 @@ rm -rf "$HOME/.config/hypr/" "$HOME/.config/waybar"
 echo "📦 Copying new configurations"
 cp -r hypr "$HOME/.config/"
 cp -r waybar "$HOME/.config/"
+hyprctl reload
 echo "✅ New configurations is installed"
 
 echo "📥 Installing packages"
