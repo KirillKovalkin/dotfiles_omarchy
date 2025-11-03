@@ -16,6 +16,6 @@ echo "✅ New configurations is installed"
 
 echo "📥 Installing packages"
 sudo pacman -S telegram-desktop discord yazi android-tools --noconfirm
-yay -S polychromatic google-chrome yandex-music-native android-studio --noconfirm
+yay -S polychromatic google-chrome yandex-music android-studio --noconfirm
 sudo gpasswd -a $USER plugdev
 echo "✅ Packages is installed"
